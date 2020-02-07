@@ -34,6 +34,7 @@ a{
 	border-radius: 40% 40% 0 0;
 	border: solid;
 	border-color: #451e00;
+	z-index: -4;
 }
 
 .face__chub{
@@ -59,6 +60,7 @@ a{
 	top: 0;
 	border-radius: 50%;
 	background-color: #ffc3a3;
+	z-index: -3;
 }
 
 .face__middle{
@@ -67,6 +69,9 @@ a{
 	right: 0;
 	top:200px;
 	height: 100px;
+	display: flex;
+	justify-content: center;
+	z-index: -2;
 }
 
 .ear{
@@ -153,12 +158,13 @@ border-radius: 25px 5px 25px 5px;
 
 .nose{
 	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
+	
+	/*transform: translateX(-50%);*/
 	height: 210px;
 	width: 80px;
 	background-color: #d98257;
 	border-radius: 40% 40% 10% 10%;
+
 }
 
 .nose:before{
@@ -173,6 +179,7 @@ border-radius: 25px 5px 25px 5px;
 	border: 7px solid;
 	left: 50%;
 	transform: translateX(-50%);	
+	z-index: -1;
 }
 
 .nose:after{
