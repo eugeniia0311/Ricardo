@@ -8,6 +8,6 @@
 * after
 
 ```
-Задание было выполнено на курсах 
+Задание было выполнено на курса
 ```
 [Digital Banana](https://digital-banana.ru)
